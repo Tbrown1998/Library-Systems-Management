@@ -12,7 +12,11 @@ This project demonstrates the implementation of a Library Management System usin
 ## Tools Used
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL  
-- **Data Visualization:** Power BI (Future Work)  
+- **Data Visualization:** Power BI (Future Work)
+
+### Data Source
+- [Kaggle](www.kaggle.com)
+
 
 ## Project Objectives
 1. **Set up the Library Management System Database:** Create and populate the database with tables for branches, employees, members, books, issued status, and return status.  
