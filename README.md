@@ -100,8 +100,10 @@ CREATE TABLE return_status (
     return_book_isbn VARCHAR(50),
     FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
 );
-
--- Insert Values into table
+```
+ - **Inserting Values:**
+ Insert data and values inside each created Tables
+```sql
 INSERT INTO members(member_id, member_name, member_address, reg_date) 
 VALUES
 ('C101', 'Alice Johnson', '123 Main St', '2021-05-15'),
