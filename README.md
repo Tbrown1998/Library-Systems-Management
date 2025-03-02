@@ -4,26 +4,29 @@
 ![cdad3563c90bf642f93b3896ae004535](https://github.com/user-attachments/assets/4c14d349-6d90-4bd4-ab57-c4cc8eb801dc)
 
 
-## Project Overview
+## 📌 Project Overview
 **Project Title:**  Library System Management 
 
 This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
 
-## Technology Stack
+## 🎯 Project Objectives
+1. **Set up the Library Management System Database:** Create and populate the database with tables for branches, employees, members, books, issued status, and return status.  
+2. **CRUD Operations:** – Perform Create, Read, Update, and Delete operations on the data.
+3. **CTAS (Create Table As Select):** – Utilize CTAS to create new tables based on query results. 
+4. **Advanced SQL Queries:** – Utilize CTAS to create new tables based on query results.
+
+## 🛠️ Technology Stack
 - **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions, Stored Procedures 
 
+---
+
 ### Data Source
 - [Kaggle](www.kaggle.com)
 
-
-## Project Objectives
-1. **Set up the Library Management System Database:** Create and populate the database with tables for branches, employees, members, books, issued status, and return status.  
-2. **CRUD Operations:** – Perform Create, Read, Update, and Delete operations on the data.
-3. **CTAS (Create Table As Select):** – Utilize CTAS to create new tables based on query results. 
-4. **Advanced SQL Queries:** – Utilize CTAS to create new tables based on query results.
+---
 
 ## Project Structure
 
@@ -32,6 +35,7 @@ This project demonstrates the implementation of a Library Management System usin
 - **Table Creation:** Established tables for `branches`, `employees`, `members`, `books`, `issued_status`, and `return_status`. Each table includes relevant columns and relationships.
 - **Inserting Values Into Table:** Insert data and values inside each created Tables
 
+### Database & Table Creation
 ```sql
   -- Create the database
 CREATE DATABASE library_db;
@@ -102,8 +106,8 @@ CREATE TABLE return_status (
     FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
 );
 ```
- - **Inserting Values:**
- Insert data and values inside each created Tables
+### Inserting Values:
+Insert data and values inside each created Tables
 ```sql
 INSERT INTO members(member_id, member_name, member_address, reg_date) 
 VALUES
@@ -262,7 +266,9 @@ SELECT * FROM employees;
 SELECT * FROM issued_status;
 SELECT * FROM return_status
 ```
-### 2. CRUD Operations
+---
+
+## 2. CRUD Operations
 - **Create:** Inserted sample records into the books table.
 - **Read:** Retrieved and displayed data from various tables.
 - **Update:** Updated records in the employees table.
@@ -301,7 +307,7 @@ GROUP BY e.emp_name, e.emp_id
 HAVING COUNT(i.*) > 1
 	ORDER BY number_of_books;
 ```
-### 3. CTAS Create Table As Select
+## 3. CTAS Create Table As Select
 - **Task 6:** Create Summary Tables: Used CTAS to generate new tables based on query results - each book and total book_issued_cnt**
 ```sql
 CREATE TABLE book_issued_cnt AS
@@ -313,7 +319,9 @@ JOIN issued_status i
 ON b.isbn = i.issued_book_isbn
 GROUP BY isbn, book_name
 ```
-### Key Analysis & Findings
+---
+
+## Key Analysis & Findings
 The following SQL queries were used to address specific questions:
 #### 1. Find Total Rental Income by Category:
 ```sql
