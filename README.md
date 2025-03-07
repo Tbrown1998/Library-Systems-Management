@@ -1,11 +1,12 @@
 # 📚 Library Systems Management
 
 
-![cdad3563c90bf642f93b3896ae004535](https://github.com/user-attachments/assets/4c14d349-6d90-4bd4-ab57-c4cc8eb801dc)
+![library-488690_1920](https://github.com/user-attachments/assets/3ae4d844-f797-496a-a0ec-b27c074c3230)
+
 
 
 ## 📌 Project Overview
-**Project Title:**  Library System Management 
+**Project Title:** **Library System Management**
 
 This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
 
