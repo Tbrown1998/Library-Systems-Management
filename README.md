@@ -629,26 +629,41 @@ CALL issue_book('IS156', 'C108', '978-0-375-41398-8', 'E104');
 SELECT * FROM books
 WHERE isbn = '978-0-375-41398-8'
 ```
+---
+
+![Screenshot (136)](https://github.com/user-attachments/assets/0a6c9c5c-42a4-4d33-af8c-e6dc30c90c07)
+
+![Screenshot (138)](https://github.com/user-attachments/assets/b692de14-b992-440b-9ccd-8dc3eb03ad8c)
+
+![Screenshot (141)](https://github.com/user-attachments/assets/9389c96f-2950-4404-b77e-8c8a7aaee18d)
+
+![Screenshot (139)](https://github.com/user-attachments/assets/751fe41c-45b0-431d-8a10-1f592f46e982)
+
+
+---
+
 ## Reports
 - Database Schema: Detailed table structures and relationships.
 - Data Analysis: Insights into book categories, employee salaries, member registration trends, and issued books.
 - Summary Reports: Aggregated data on high-demand books and employee performance.
 
-  
+
 ## Conclusion
 This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data manipulation, and advanced querying, providing a solid foundation for data management and analysis.
 
 ---
 
 ## 📌 About Me
-Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst with strong skills in Python, SQL, Power BI, and Excel. I turn raw data into actionable insights through automation, data storytelling, and visual analytics.
+Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst with strong skills in Python, SQL, Power BI, and Excel. I turn raw data into actionable insights through automation, data storytelling, and visual analytics. My work is rooted in analytical thinking, strong business acumen, and technical expertise. Whether it's uncovering hidden trends, optimizing workflows, or translating data into compelling stories, I bring clarity and direction to data—helping organizations make smarter, faster decisions.
 
-- **💡 Tools & Tech:** **Python** (Pandas, NumPy, Matplotlib, Seaborn) | **SQL** (MsSQL, Postgree, MySQL) | **Microsoft Power BI** | **Microsoft Excel**
-- **🔹 Key Skills:** Data wrangling, dashboarding, reporting, and process optimization.
-- ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2.0.0-150458?logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-1.21.0-013243?logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5.0-blue?logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.0-black?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-5.5.0-3F4F75?logo=plotly)
-- ![SQL](https://img.shields.io/badge/SQL-Server-red?logo=microsoft-sql-server&logoColor=white) ![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-- ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black) ![DAX](https://img.shields.io/badge/DAX-F2C811?logo=powerbi&logoColor=black) ![Power Query](https://img.shields.io/badge/Power_Query-F2C811?logo=powerbi&logoColor=black)
-- ![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white)
+## 💡 Tools & Tech:
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **SQL** (MsSQL, Postgree, MySQL)
+- **Microsoft Power BI**
+- **Microsoft Excel**
+- 🔹 **Key Skills:** Data wrangling, dashboarding, reporting, and process optimization.
+- ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-Server-red?logo=microsoft-sql-server&logoColor=white) ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black) ![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white)
+
 
 #### 🚀 **Always learning. Always building. Data-driven to the core.**  
 
