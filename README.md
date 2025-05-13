@@ -1,4 +1,6 @@
-# 📚 Library Systems Management
+# 📚 Library Systems Management using SQL
+
+## Building A Structured Relational Database To Streamline Operations And Optimize Data & Inventory management.
 
 
 ![library-488690_1920](https://github.com/user-attachments/assets/3ae4d844-f797-496a-a0ec-b27c074c3230)
@@ -8,7 +10,9 @@
 ## 📌 Project Overview
 **Project Title:** **Library System Management**
 
-This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
+This project demonstrates the implementation of a Library Management System using SQL. 
+- It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries.
+- The goal is to showcase skills in database design, manipulation, and querying.
 
 ## 🎯 Project Objectives
 1. **Set up the Library Management System Database:** Create and populate the database with tables for branches, employees, members, books, issued status, and return status.  
@@ -630,6 +634,7 @@ SELECT * FROM books
 WHERE isbn = '978-0-375-41398-8'
 ```
 ---
+### Desktop Screenshots 
 
 ![Screenshot (136)](https://github.com/user-attachments/assets/0a6c9c5c-42a4-4d33-af8c-e6dc30c90c07)
 
